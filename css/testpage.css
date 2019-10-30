@@ -1,0 +1,283 @@
+body{
+    background-color: #ffe100;
+}
+.testpage-title{
+    padding-top:40px;
+    text-align: center;
+    font-size:50px;
+    padding-bottom: 60px;
+}
+
+.testpage-title:before{
+    content: "";
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 70px;/*線の上下位置*/
+    width: 450px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: black;
+}
+
+.test{
+    margin:0 auto;
+    width:1045px;
+    height: 1323px;
+    background-color:white;
+}
+
+.test .head{
+    padding:32px 48px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.test .titleArea{
+    font-size:50px;
+    width:500px;
+    height:108px;
+    background-color: #ffe100;
+    border-radius: 20px;
+}
+
+.titleArea .title{
+    position: relative;
+    top:18px;
+    left:26px;
+}
+
+.nameArea{
+    position: relative;
+    bottom: 24px;
+}
+
+.nameArea::after{
+    content: "";
+    display: block;
+    position: relative;
+    left: 50%;
+    bottom: 50px;/*線の上下位置*/
+    width: 400px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #ffe100;
+}
+
+.nameArea .name{
+    position: relative;
+    bottom:70px;
+    font-size:37px;
+    margin-left:40px;
+}
+
+.Q1{
+    margin:0 94px;
+    height: 300px;
+}
+.Q2{
+    margin:0 94px;
+    height: 300px;
+}
+.Q3{
+    margin:0 94px;
+    height: 300px;
+}
+
+.one .Icon{
+    width: 55px;
+    height: 55px;
+    background-color: #0092FF;
+    color:white;
+    text-align:center;
+    border-radius: 10px;
+    margin-right: 45px;
+
+}
+
+.Icon span{
+    position:relative;
+    top:7px;
+}
+
+.one{
+    font-size:30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list .maru{
+    font-size:30px;
+    width:48px;
+    height: 48px;
+    border-radius: 30px;
+    border: solid 3px #0092ff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.list{
+    display:flex;
+    justify-content: space-between;
+}
+.list .item{
+    display:flex;
+}
+.item span{
+    position: relative;
+    top:9px;
+    padding-left:16px;
+    font-size:30px;
+}
+.answer{
+    display: block;
+    position: relative;
+    padding-top:30px;
+    left:290px;
+    font-size: 30px;
+}
+
+.answer .caption::before{
+    content: "";
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50px;/*線の上下位置*/
+    width: 390px;/*線の長さ*/
+    height: 3px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: black;
+}
+.userAnswer{
+    padding-left: 100px;
+}
+.userAnswer2{
+    padding-left: 100px;
+}
+.userAnswer3{
+    padding-left: 100px;
+}
+.answer{
+    height: 100px;
+}
+.caption{
+    height: 100px;
+}
+
+.ansbtn{
+    position: relative;
+    top:40px;
+    height: 80px;
+    width:312px;
+    background-color: #42E047;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    margin:0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.ansbtn span{
+    position: relative;
+    top:20px;
+}
+
+.finbtn{
+    position: relative;
+    top:40px;
+    height: 80px;
+    width:312px;
+    background-color: #42E047;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    margin:0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+    background-color:#5B42E0; 
+}
+
+.finbtn span{
+    position: relative;
+    top:20px;
+    cursor: pointer;
+}
+.test{
+}
+/*modal*/
+.grayfill{
+    position: absolute;
+    background-color:gainsboro;
+    opacity: 60%;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height: 120vh;
+    z-index: 1;
+    display: none;
+}
+
+#modalwindow{
+    display:none;
+    position: relative;
+    height: 500px;
+    width:846px;
+    background-color: white;
+    z-index: 100;
+    margin:0 auto;
+    border-radius: 20px;
+}
+.modal{
+    position: relative;
+}
+
+.modal .resulttext{
+    position: relative;
+    top:16px;
+    display: flex;
+    justify-content: center;
+}
+.resulttext span{
+    font-size:30px;
+    padding:16px 90px;
+    border: 3px solid;
+    text-align: center;
+}
+.modal .imgAreaR{
+    padding-top:56px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.imgAreaR img{
+    padding-bottom: 16px;
+    width:400px;
+    height: auto;
+}
+
+.backbtn{
+    padding-top:63px;
+    display:block;
+    text-align: center;
+    cursor: pointer;
+}
+.backbtn span{
+    padding:16px 40px;
+    font-size:30px;
+    background-color: #ffe100;
+    border-radius: 30px;
+}
+
+.coinAnime{
+    position: absolute;
+    bottom:100px;
+    left:640px;
+}
+
+
+
+

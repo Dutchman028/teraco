@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="811" height="496" viewBox="0 0 811 496">
+  <g id="グループ_9" data-name="グループ 9" transform="translate(-2558 -3211)">
+    <g id="コンポーネント_3_1" data-name="コンポーネント 3 – 1" transform="translate(2558 3211)">
+      <g id="長方形_5" data-name="長方形 5" fill="#fff" stroke="#000" stroke-width="5">
+        <rect width="811" height="496" rx="30" stroke="none"/>
+        <rect x="2.5" y="2.5" width="806" height="491" rx="27.5" fill="none"/>
+      </g>
+      <path id="長方形_6" data-name="長方形 6" d="M0,0H811a0,0,0,0,1,0,0V51a30,30,0,0,1-30,30H30A30,30,0,0,1,0,51V0A0,0,0,0,1,0,0Z" transform="translate(0 415)" fill="rgba(255,255,255,0)"/>
+    </g>
+    <rect id="長方形_7" data-name="長方形 7" width="501" height="75" rx="10" transform="translate(2594 3275)" fill="#ffe100"/>
+    <g id="長方形_8" data-name="長方形 8" transform="translate(2709 3391)" fill="#fff" stroke="#000" stroke-width="5">
+      <rect width="509" height="196" stroke="none"/>
+      <rect x="2.5" y="2.5" width="504" height="191" fill="none"/>
+    </g>
+    <text id="カタカナの成り立ち" transform="translate(2608 3334)" font-size="50" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500"><tspan x="0" y="0">カタカナの成り立ち</tspan></text>
+    <text id="カタカナ" transform="translate(2770 3526)" font-size="90" font-family="NotoSansJP-Medium, Noto Sans JP" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">カタカナ</tspan></text>
+  </g>
+</svg>

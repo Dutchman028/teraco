@@ -1,0 +1,229 @@
+body{
+    margin:0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+
+.font{
+    /*font-family: 'Capucine Basic';*/
+    font-family: 'Paytone One', sans-serif;
+}
+
+
+
+.visual{
+    height: 744px;
+    width:auto;
+    background-color:#ffe100;
+    text-align: center;
+}
+
+.visual .title{
+    padding-top:13rem;
+    font-size:150px;
+}
+
+.visual .sub-title{
+    position: relative;
+    bottom:8px;
+    font-size:48px;
+}
+
+.visual .sub-sub-title{
+    margin :0 auto;
+    margin-top:72px;
+    height: 3rem;
+    width: 41rem;
+    background-color:black;
+    border-radius: 7px;
+}
+
+.sub-sub-title .text{
+    padding-top:8px;
+    font-size:24px;
+    color:#ffe100;
+}
+/*MENU*/
+.menu{
+    background-color: black;
+    padding:10px 80px;
+}
+.menu .logo{
+    margin-right: auto;
+    color:#ffe100;
+    padding-left: 0;
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu li{
+    padding-left:56px;
+    color:white;
+    font-size:30px;
+}
+/*MAIN*/
+main{
+    text-align: center;
+    font-size:27px;
+}
+/*CAPTION*/
+
+.caption{
+    height: 450px;
+    padding:0 240px;
+}
+
+.caption .title{
+    position: relative;
+    display: inline-block;
+    margin-top:8rem;
+    font-size:36px;
+  }
+.caption .title:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;/*線の上下位置*/
+    display: inline-block;
+    width: 150px;/*線の長さ*/
+    height: 5px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #ffe100;/*線の色*/
+    border-radius: 10px;/*線の丸み*/
+}
+
+/*HOWTO*/
+.howto{
+    width:100vw;
+    background-color: #ffe100;
+    min-height: 1000px;
+}
+
+.howto .title{
+    font-size:36px;
+    position: relative;
+    display: inline-block;
+    margin:2em 0;
+    width:100%;
+}
+
+.howto .title:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;/*線の上下位置*/
+    display: inline-block;
+    width: 250px;/*線の長さ*/
+    height: 5px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: black;/*線の色*/
+    border-radius: 10px;/*線の丸み*/
+}
+
+/*STEP1-3*/
+.howto ul{
+    display:flex;
+    justify-content:space-between;
+    padding:0 240px;
+    height: 600px;
+    font-size:30px;
+}
+.howto p{
+    font-size:20px;
+    text-align: left;
+    white-space: nowrap;
+}
+.howto li{
+    list-style: none; 
+}
+.imgArea{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.imgArea img{
+    padding-top:15px;
+    object-fit: cover;
+    height: auto;
+    width:220px;
+}
+
+.step2{
+    position: relative;
+    top:100px;
+}
+.step3{
+    position: relative;
+    top:200px;
+}
+
+
+/*IMAGE*/
+.pointImg{
+    object-fit: cover;
+    width:900px;
+    height: 500px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color:white;
+    margin-bottom:4rem;
+    border-radius: 20px;
+}
+.howto .text{
+    margin-bottom: 2rem;
+}
+
+/*LET`S*/
+.letis{
+    padding:0 240px;
+    margin-bottom: 6rem;
+}
+.letis p{
+    padding-top:60px;
+    font-size:56px;
+} 
+
+.letis .button{
+    border-radius:10px ;
+    padding: 20px 100px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #ffe100;
+    color:black;
+}
+
+footer{
+    height: 90px;
+    font-size: 16px;
+}
+
+footer span{
+    display: block;
+    text-align: center;
+    position: relative;
+    top:40px;
+}
+
+.lottie1{
+    width:500px;
+    height: auto;
+    position: absolute;
+    bottom:0px;
+    float: right;
+    display:none;
+}
+
+
+
+
+
+
